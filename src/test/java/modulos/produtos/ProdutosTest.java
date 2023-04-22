@@ -19,8 +19,7 @@ public class ProdutosTest {
         // Vou maximizar a tela
         this.navegador.manage().window().maximize();
 
-        //Vou definir um tempo de espera padrão de 5 segundos ( ele esperar ao menos 5 segundos antes de
-        //falhar o teste
+        //Vou definir um tempo de espera padrão de 5 segundos
         this.navegador.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         // Navegar para a página da Lojinha WEB
